@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageButton
+        android:onClick="btnClick"
         android:id="@+id/imgBtnRock"
         android:layout_width="0dp"
         android:layout_height="120dp"
@@ -21,6 +22,7 @@
         app:srcCompat="@drawable/pedra" />
 
     <ImageButton
+        android:onClick="btnClick"
         android:id="@+id/imgBtnPaper"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -33,6 +35,7 @@
         app:srcCompat="@drawable/papel" />
 
     <ImageButton
+        android:onClick="btnClick"
         android:id="@+id/imgBtnCut"
         android:layout_width="0dp"
         android:layout_height="0dp"

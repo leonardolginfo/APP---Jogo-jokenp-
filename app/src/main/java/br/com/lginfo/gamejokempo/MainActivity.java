@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.media.Image;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
@@ -25,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
         rock = findViewById(R.id.imgBtnRock);
         paper = findViewById(R.id.imgBtnPaper);
         cut = findViewById(R.id.imgBtnCut);
+    }
+
+    public void btnClick(View view){
 
     }
 }
