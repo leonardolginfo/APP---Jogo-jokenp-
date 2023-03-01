@@ -29,6 +29,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btnClick(View view){
-
+        player1.setScaleX(-1);
+        switch (view.getId()){
+            case(R.id.imgBtnRock):player1.setImageResource(R.drawable.pedra);
+            break;
+            case(R.id.imgBtnPaper):player1.setImageResource(R.drawable.papel);
+            break;
+            case(R.id.imgBtnCut):player1.setImageResource(R.drawable.tesoura);
+            break;
+        }
     }
 }
